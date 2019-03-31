@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prescription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
+    <script src="javasc.js"></script>
+</head>
+<body>
+    <div id="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Rezept</span>
+            <a class="navbar-brand" href="#" style="color: #50555a">Home</a>
+            <a class="navbar-brand" href="#" style="color: #50555a" >About</a>
+        </nav> 
+
+        <p class="intro" style=" padding: 1vw; padding-top: 2vw">Have you ever thought that how difficult it would be if we there were no chemist
+        because they are the only one who understands the prescription written by the doctors but dont worry we solved your
+        problem. Here is the solution for it. Your will get the names of medicines written in prescription just by clicking 
+        its pic and uploading it here.</p>
+
+        <form style="padding: 1vw">
+            <div class="row 1" style="padding: 1vw">
+                <div class="col 1">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col 2">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row 2" style="padding: 1vw">
+                <div class="col 1">
+                    <input type="text" class="form-control" placeholder="Email ID">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="col 2">
+                    <input type="text" class="form-control" placeholder="Phone No.">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your phone no. with anyone else.</small>
+                </div>
+            </div>
+            <div class="form-group" style="padding: 1vw">
+                <label for="prescription">Upload Prescription</label>
+                <input type="file" class="form-control-file" id="prescription">
+            </div>
+            <div style="text-align: center"><button type="submit" class="btn btn-primary">Submit</button></div>
+        </form>
+    </div>
+</body>
+</html>
